@@ -1,0 +1,79 @@
+[
+    {
+        "id":1,
+        "name":"Coca-Cola 1 L",
+        "brand":"Coca-Cola",
+        "category":"İçecek",
+        "price":{
+            "2020":5.95,
+            "2019":2.95
+        },
+        "img":"./img/cocacola1lt.png"
+    },
+    {
+        "id":2,
+        "name":"Yudum Ayçiçek Yağı 5 L Teneke",
+        "brand":"Yudum",
+        "category":"Temel Gıda",
+        "price":{
+            "2020":84.95,
+            "2019":2.95
+        },
+        "img":"./img/yudumyag5lt.png"
+    },
+    {
+        "id":3,
+        "name":"Yayla Yerli Pirinç 2 Kg",
+        "brand":"Yayla",
+        "category":"Temel Gıda",
+        "price":{
+            "2020":28.50,
+            "2019":2.95
+        },
+        "img":"./img/yaylapirinc2kg.png"
+    },
+    {
+        "id":4,
+        "name":"Söke Un 2 Kg",
+        "brand":"Söke",
+        "category":"Temel Gıda",
+        "price":{
+            "2020":14.95,
+            "2019":2.95
+        },
+        "img":"./img/sokeun2kg.png"
+    },
+    {
+        "id":5,
+        "name":"Sütaş Geleneksel Tereyağı 250 G",
+        "brand":"Sütaş",
+        "category":"Süt,Kahvaltılık",
+        "price":{
+            "2020":25.75,
+            "2019":2.95
+        },
+        "img":"./img/sutastereyag250g.png"
+    },
+    {
+        "id":6,
+        "name":"Filiz Burgu Makarna 500 G",
+        "brand":"Filiz",
+        "category":"Temel Gıda",
+        "price":{
+            "2020":4.75,
+            "2019":2.95
+        },
+        "img":"./img/filizburgumakarna500g.png"
+    },
+    {
+        "id":7,
+        "name":"Doğuş Toz Şeker 1 Kg",
+        "brand":"Doğuş",
+        "category":"Temel Gıda",
+        "price":{
+            "2020":8.75,
+            "2019":2.95
+        },
+        "img":"./img/dogustozseker1kg.png"
+    }
+]
