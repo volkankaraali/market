@@ -6,7 +6,7 @@
         "category":"İçecek",
         "price":{
             "2021":5.95,
-            "2020":2.95
+            "2020":3.95
         },
         "img":"./img/cocacola1lt.png"
     },
@@ -17,7 +17,7 @@
         "category":"Temel Gıda",
         "price":{
             "2021":84.95,
-            "2020":2.95
+            "2020":61.95
         },
         "img":"./img/yudumyag5lt.png"
     },
@@ -28,7 +28,7 @@
         "category":"Temel Gıda",
         "price":{
             "2021":28.50,
-            "2020":2.95
+            "2020":21.95
         },
         "img":"./img/pirinc.png"
     },
@@ -39,7 +39,7 @@
         "category":"Temel Gıda",
         "price":{
             "2021":14.95,
-            "2020":2.95
+            "2020":9.19
         },
         "img":"./img/un.png"
     },
@@ -50,7 +50,7 @@
         "category":"Süt,Kahvaltılık",
         "price":{
             "2021":25.75,
-            "2020":2.95
+            "2020":19.95
         },
         "img":"./img/sutastereyag250g.png"
     },
@@ -61,7 +61,7 @@
         "category":"Temel Gıda",
         "price":{
             "2021":4.75,
-            "2020":2.95
+            "2020":3.00
         },
         "img":"./img/filizburgumakarna500g.png"
     },
@@ -72,7 +72,7 @@
         "category":"Temel Gıda",
         "price":{
             "2021":8.75,
-            "2020":2.95
+            "2020":6.81
         },
         "img":"./img/dogustozseker1kg.png"
     },
@@ -83,7 +83,7 @@
         "category":"Süt,Kahvaltılık",
         "price":{
             "2021":8.45,
-            "2020":2.95
+            "2020":5.90
         },
         "img":"./img/icimsut1lt.png"
     },
@@ -94,7 +94,7 @@
         "category":"Et,Tavuk,Balık",
         "price":{
             "2021":56.95,
-            "2020":2.95
+            "2020":45.9
         },
         "img":"./img/danakiyma1kg.png"
     },
@@ -105,18 +105,18 @@
         "category":"Et,Tavuk,Balık",
         "price":{
             "2021":39.95,
-            "2020":2.95
+            "2020":25.95
         },
         "img":"./img/banvitbonfile1kg.png"
     },
     {
         "id":11,
-        "name":"Ekici Beyaz Peynir 1 Kg",
-        "brand":"Ekici",
+        "name":"Tahsildaroğlu Ezine İnek Peyniri 1 Kg",
+        "brand":"Tahsildaroğlu",
         "category":"Süt,Kahvaltılık",
         "price":{
-            "2021":45.90,
-            "2020":2.95
+            "2021":67.95,
+            "2020":52.45
         },
         "img":"./img/peynir.png"
     },
@@ -127,7 +127,7 @@
         "category":"Süt,Kahvaltılık",
         "price":{
             "2021":9.50,
-            "2020":2.95
+            "2020":6.95
         },
         "img":"./img/sutasyogurt1kg.png"
     },
@@ -138,18 +138,18 @@
         "category":"Süt,Kahvaltılık",
         "price":{
             "2021":16.90,
-            "2020":2.95
+            "2020":9.95
         },
         "img":"./img/yumurta.png"
     },
     {
         "id":14,
-        "name":"Cem Gemlik Sele Siyah Zeytin 1 Kg",
-        "brand":"Cem Gemlik",
+        "name":"Sude Gemlik Sele Siyah Zeytin 1 Kg",
+        "brand":"Sude",
         "category":"Süt,Kahvaltılık",
         "price":{
-            "2021":35.75,
-            "2020":2.95
+            "2021":24.95,
+            "2020":19.95
         },
         "img":"./img/zeytin.png"
     },
@@ -160,7 +160,7 @@
         "category":"Deterjan, Temizlik",
         "price":{
             "2021":53.90,
-            "2020":2.95
+            "2020":44.25
         },
         "img":"./img/tuvaletkagidi.png"
     }

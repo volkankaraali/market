@@ -1,71 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<link>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
-    <title>Document</title>
+    <link rel="icon" href="./img/basket-fill.svg">
+    <title>Market</title>
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-primary" name="yearButton" value="2021" onclick="getData(value)">2021</button>
-            <button type="button" class="btn btn-primary" name="yearButton" value="2020" onclick="getData(value)">2020</button>
-            <button type="button" class="btn btn-primary" name="yearButton" value="2019" onclick="getData(value)">2019</button>
-          </div>
+    <div class="container mb-3">
+        
     </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-9">
-                <div id="test3" class="row">
-
-                </div>
-            </div>
-            <div class="col-sm-3 text-center">
-                <div class="card" style="width: 22rem;">
-                    <div class="card-header bg-success fw-bold text-white">
-                        Sepet
+            <div class="col-sm-4 text-center">
+                
+                <div class="sticky-top">
+                    <div id="basketCard" class="card mb-1" >
+                        <div class="card-header fw-bold bg-light text-dark">
+                            Sepet <i class="bi bi-basket-fill"></i>
+                        </div>
+                        
+                        <ul id="product" class="list-group list-group-flush">
+                        </ul>
+                        <div id="totalPrice" class="fw-bold "></div>
                     </div>
-                    
-                    <ul id="litest" class="list-group list-group-flush">
-                    </ul>
-                    <div id="totalPrice" class="fw-bold"></div>
+                    <div id="emptyAlert" class="alert alert-warning fw-bold" style="visibility: visible;" role="alert">
+                        Sepetiniz Boş!
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-8">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary me-2" name="yearButton" value="2021" onclick="getData(value)">2021</button>
+                    <button type="button" class="btn btn-primary me-2" name="yearButton" value="2020" onclick="getData(value)">2020</button>
                 </div>
 
-            </div>
-        </div>
-    </div>
+                <div id="products" class="row">
 
-    <!-- <div class="container mt-5">
-        <div id="test2" class="row">
+                </div>
+            </div>
+
             
         </div>
-
-        <h3>basket</h3>
-        <div id="basket" class="row">
-
-        </div>
-        <div id="price"></div>
     </div>
-     -->
 
-
-
-
+    <footer class="d-flex flex-column align-items-center justify-content-center bg-light" style="height: 100px;"> 
+        <p class="">Bu sitede kullanılan görseller internetten alınmış olup, ticari amaçlı <b>kullanılmamıştır.</b> </p>
+        <a style="text-decoration: none;color:black" href="https://github.com/volkankaraali" target="_blank">github/volkankarali</a>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <script type="text/javascript" src="products.json"></script>
-    <script type="text/javascript" src="products.js"></script>
-    <script src="basket.js"></script>
+
+    <script language="JavaScript" type="text/javascript" src="basket.js"></script>
+    <script language="JavaScript" type="text/javascript" src="products.js"></script>
+    <script language="JavaScript" type="text/javascript" src="products.json"></script>
 </body>
 
 </html>
