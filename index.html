@@ -14,7 +14,11 @@
 <body>
 
     <div class="container">
-
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary" name="yearButton" value="2021" onclick="getData(value)">2021</button>
+            <button type="button" class="btn btn-primary" name="yearButton" value="2020" onclick="getData(value)">2020</button>
+            <button type="button" class="btn btn-primary" name="yearButton" value="2019" onclick="getData(value)">2019</button>
+          </div>
     </div>
 
     <div class="container">
@@ -32,7 +36,7 @@
                     
                     <ul id="litest" class="list-group list-group-flush">
                     </ul>
-                    <div id="price" class="fw-bold"></div>
+                    <div id="totalPrice" class="fw-bold"></div>
                 </div>
 
             </div>

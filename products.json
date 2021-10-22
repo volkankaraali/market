@@ -5,8 +5,8 @@
         "brand":"Coca-Cola",
         "category":"İçecek",
         "price":{
-            "2020":5.95,
-            "2019":2.95
+            "2021":5.95,
+            "2020":2.95
         },
         "img":"./img/cocacola1lt.png"
     },
@@ -16,8 +16,8 @@
         "brand":"Yudum",
         "category":"Temel Gıda",
         "price":{
-            "2020":84.95,
-            "2019":2.95
+            "2021":84.95,
+            "2020":2.95
         },
         "img":"./img/yudumyag5lt.png"
     },
@@ -27,10 +27,10 @@
         "brand":"Yayla",
         "category":"Temel Gıda",
         "price":{
-            "2020":28.50,
-            "2019":2.95
+            "2021":28.50,
+            "2020":2.95
         },
-        "img":"./img/yaylapirinc2kg.png"
+        "img":"./img/pirinc.png"
     },
     {
         "id":4,
@@ -38,10 +38,10 @@
         "brand":"Söke",
         "category":"Temel Gıda",
         "price":{
-            "2020":14.95,
-            "2019":2.95
+            "2021":14.95,
+            "2020":2.95
         },
-        "img":"./img/sokeun2kg.png"
+        "img":"./img/un.png"
     },
     {
         "id":5,
@@ -49,8 +49,8 @@
         "brand":"Sütaş",
         "category":"Süt,Kahvaltılık",
         "price":{
-            "2020":25.75,
-            "2019":2.95
+            "2021":25.75,
+            "2020":2.95
         },
         "img":"./img/sutastereyag250g.png"
     },
@@ -60,8 +60,8 @@
         "brand":"Filiz",
         "category":"Temel Gıda",
         "price":{
-            "2020":4.75,
-            "2019":2.95
+            "2021":4.75,
+            "2020":2.95
         },
         "img":"./img/filizburgumakarna500g.png"
     },
@@ -71,9 +71,97 @@
         "brand":"Doğuş",
         "category":"Temel Gıda",
         "price":{
-            "2020":8.75,
-            "2019":2.95
+            "2021":8.75,
+            "2020":2.95
         },
         "img":"./img/dogustozseker1kg.png"
+    },
+    {
+        "id":8,
+        "name":"Pınar Süt 1 L",
+        "brand":"Pınar",
+        "category":"Süt,Kahvaltılık",
+        "price":{
+            "2021":8.45,
+            "2020":2.95
+        },
+        "img":"./img/icimsut1lt.png"
+    },
+    {
+        "id":9,
+        "name":"Dana Kıymalık 1 Kg",
+        "brand":"",
+        "category":"Et,Tavuk,Balık",
+        "price":{
+            "2021":56.95,
+            "2020":2.95
+        },
+        "img":"./img/danakiyma1kg.png"
+    },
+    {
+        "id":10,
+        "name":"Banvit Piliç Bonfile 1 Kg",
+        "brand":"Banvit",
+        "category":"Et,Tavuk,Balık",
+        "price":{
+            "2021":39.95,
+            "2020":2.95
+        },
+        "img":"./img/banvitbonfile1kg.png"
+    },
+    {
+        "id":11,
+        "name":"Ekici Beyaz Peynir 1 Kg",
+        "brand":"Ekici",
+        "category":"Süt,Kahvaltılık",
+        "price":{
+            "2021":45.90,
+            "2020":2.95
+        },
+        "img":"./img/peynir.png"
+    },
+    {
+        "id":12,
+        "name":"Sütaş Kaymaksız Yoğurt 1 Kg",
+        "brand":"Sütaş",
+        "category":"Süt,Kahvaltılık",
+        "price":{
+            "2021":9.50,
+            "2020":2.95
+        },
+        "img":"./img/sutasyogurt1kg.png"
+    },
+    {
+        "id":13,
+        "name":"Yumurtacım 15'li L Boy Yumurta",
+        "brand":"Yumurtacım",
+        "category":"Süt,Kahvaltılık",
+        "price":{
+            "2021":16.90,
+            "2020":2.95
+        },
+        "img":"./img/yumurta.png"
+    },
+    {
+        "id":14,
+        "name":"Cem Gemlik Sele Siyah Zeytin 1 Kg",
+        "brand":"Cem Gemlik",
+        "category":"Süt,Kahvaltılık",
+        "price":{
+            "2021":35.75,
+            "2020":2.95
+        },
+        "img":"./img/zeytin.png"
+    },
+    {
+        "id":15,
+        "name":"Solo Tuvalet Kağıdı 32'li",
+        "brand":"Solo",
+        "category":"Deterjan, Temizlik",
+        "price":{
+            "2021":53.90,
+            "2020":2.95
+        },
+        "img":"./img/tuvaletkagidi.png"
     }
 ]
