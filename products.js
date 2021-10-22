@@ -22,7 +22,7 @@ function getData(handleYear="2021"){
         <p class="card-text">${product.brand}</p>
         <p class="card-text fw-bold">${product.price[handleYear]}TL</p>
         <div class="d-flex justify-content-center">
-        <button class="btn btn-primary" onClick="addProduct(${product.id})">Sepete Ekle</button>
+        <button id="liveToastBtn" class="btn btn-primary" onClick="addProduct(${product.id})">Sepete Ekle</button>
         </div>
         
         </div>

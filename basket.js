@@ -5,10 +5,32 @@ function addProduct(id) {
     fetch("./products.json").then((response) => response.json()).then((data) => {
         let product = data.find(p => p.id == id)
         basket.push(product)
+        
+        // var toastLiveExample = document.getElementById('liveToast')
+        // var toast = new bootstrap.Toast(toastLiveExample)
+        
+        // toast.show()
+        showToast(product.name)
         basketList()
     })
 
 }
+
+function showToast(productName){
+    //document.getElementById("toastText").innerText=productName
+    document.getElementById("toastDiv").innerHTML=`
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body bg-success text-light d-flex justify-content-between">
+        <span id="toastText text-light"> <b>${productName}</b> Sepete Başarıyla Eklendi.</span>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>`
+    var toastLiveExample = document.getElementById('liveToast')
+    var toast = new bootstrap.Toast(toastLiveExample)
+    toast.show()
+}
+
+
 
 function basketList() {
   
