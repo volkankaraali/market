@@ -8,4 +8,4 @@
 * basket arrayında ki tekrar eden ürünleri yakalamak için basket içerisindeki her ürünü foreach ile dönüp counts objesinde {"urunId":adet} olarak eklendi.
 * ekranda listeleme işlemi count objesi üzerinden yapılmakta. key (urunId) ile basket içerisinden find ile product datasını alıp ekranda gösterilmektedir.
 * toplam fiyat totalPrice fonksiyonu ile gösterilmekte. toFixed(2) ile noktadan sonra 2 basamak olacak sekilde gösterilir.
-* silme işlemi deleteProduct fonksiyonu ile yapılmakta. fonksiyona gönderilen productId gönderilir. bu productId'ye göre basket arrayı içerisinden ilgili ürünün index alınır ve o index'li data basket içerisinden silinir.
+* silme işlemi deleteProduct fonksiyonu ile yapılmakta. fonksiyona productId gönderilir. bu productId'ye göre basket arrayı içerisinden ilgili ürünün index alınır ve o index'li data basket içerisinden silinir.
