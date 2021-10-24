@@ -4,6 +4,7 @@ let year=""
 function getData(handleYear="2021"){
   year=handleYear
 
+
   basket=[]
   document.getElementById("product").innerHTML="";
   document.getElementById("totalPrice").innerHTML=""

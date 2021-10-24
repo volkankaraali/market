@@ -36,7 +36,6 @@ function basketList() {
         counts[product.id] = (counts[product.id] || 0) + 1;
     });
 
-
     Object.entries(counts).forEach(([key, val]) => {
 
         let productInBasket = basket.find(item => item.id === parseInt(key))
